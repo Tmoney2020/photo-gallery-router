@@ -1,0 +1,55 @@
+@import 'bootstrap';
+
+:root {
+  font: 16px / 1 sans-serif;
+}
+
+html {
+  height: 100%;
+}
+
+.headerTitle {
+  font-size: 2rem;
+}
+
+header h2 {
+  font-size: 1rem;
+}
+
+.breadcrumb {
+  margin-top: 5rem;
+}
+
+body {
+  margin: 0;
+  min-height: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+.allInterests {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.interests {
+  border: 1px solid black;
+  margin: 2rem;
+  max-width: 500px;
+  max-height: auto;
+}
+
+.interestBox {
+  display: flex;
+  flex-direction: column;
+}
+
+.interestBox li img {
+  max-width: 100%;
+  max-height: 100%;
+  padding: 1rem;
+  padding-right: 3rem;
+}
